@@ -1,0 +1,37 @@
+#include <iostream>
+
+int main(){
+    int val1, val2, val3, val4, val5;
+    int result = 0;
+
+    std::cout<<" 첫 번째 정수 입력: ";
+    std::cin >> val1;
+    std::cout << "두 번째 정수 입력: ";
+    std::cin >> val2;
+    std::cout<<" 세 번째 정수 입력: ";
+    std::cin >> val3;
+    std::cout << "네 번째 정수 입력: ";
+    std::cin >> val4;
+    std::cout << "다섯 번째 정수 입력 : ";
+    std::cin >> val5;
+
+    result = val1 + val2 + val3 + val4 + val5;
+    std::cout<<result;
+  }
+  ______________________________________________________
+  
+  
+  #include <iostream>
+  
+  int main(){
+    char name[100];
+    char numb[200];
+    
+    std::cout<<" 이름을 입력하시오" ;
+    std::cin >> name;
+    std::cout <<"전화번호를 입력하시오:";
+    std::cin>> numb;
+    
+    std::cout<< name <<numb;
+    
+    }
